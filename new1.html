@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=initial-scale, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <input type="text" name="" id="name" placeholder="enter your number">
+    <button type="submit" id="submit" onclick="result()">check</button>
+    <p id="result"></p>
+    <script>
+        function result(){
+            const name= document.getElementById('name');
+            
+            var marks=Math.random()*100;
+            var result=document.getElementById('result');""+marks;
+
+            result.innerHTML= "propability of relationship is"+
+
+            if(marks<35){
+              result.innerHTML="your result is F";
+
+            }else if(marks==35){
+                result.innerHTML="your are pass";
+            }
+           else if(marks>35&&marks<51){
+               result.innerHTML="your passed with second class";
+
+            }else if(marks>50&&marks<76){
+                result.innerHTML="passed with first calss";
+            }
+            else if(marks>75&&marks<=100){
+                result.innerHTML="passed with distinction";
+            }
+        }
+    </script>
+</body>
+</html>

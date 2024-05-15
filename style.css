@@ -1,0 +1,72 @@
+h1{
+    color: aqua;
+}
+body{
+    background-image: url("https://img.freepik.com/premium-photo/logo-letter-s-with-gold-red-details_7023-263372.jpg");
+    background-attachment: scroll;
+    background-position: 100px;
+    background-repeat:repeat-x;
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        /*Tells about font family*/
+        font-size: 60px;
+        font-style: italic;
+        color: brown;
+        background-color: yellow;
+        color: blue;
+        direction: rtl;
+        letter-spacing: 45px;
+        word-spacing: 500px;
+        text-align: center;
+        text-decoration:underline;
+        text-transform: uppercase;
+        text-shadow: 5cm 4px 4px black;/*px,pt,in,mm,cm,%,rem,em*/
+
+    }
+    div{
+        width: 200px;
+        height: 300px;
+        background-color: turquoise;
+        border: 2px solid red;
+        border-style: solid;
+        border-left: 4px solid red;
+        border-right: 4px solid red;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+    img{
+        width: 500px;
+        height: 500px;
+        border: 2px solid red;
+        border-style: solid;
+        border-left: 4px solid red;
+        border-right: 4px solid red;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 60px;
+        font-variant: small-caps;
+        text-align: center;
+
+    }
+    #outer{
+        font-size: 25px;
+    }
+    #inner{
+        font-size: 10px;
+    }
+    #box{
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        padding: 20px;
+        margin: 10px;
+
+
+    }
+     
+
+}
