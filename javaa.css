@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT99N9dTeJPyLLfnukd-nvU5mloIV60CQly_w&s);
+}
+
+::placeholder{
+    background-color: white
+    ;
+    
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-variant: small-caps;
+    font-style: italic;
+    color:black;
+}
